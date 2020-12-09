@@ -1,0 +1,671 @@
+/* debut en-tête */
+*{
+    margin: 0;
+    padding: 0;
+}
+#menu{
+    width: 100%;
+    height: 230px;
+}
+.image{
+    width: 6%;
+    height: 22px;
+    position: relative;
+    right: -10em;
+    top: 2em;
+}
+.image img{
+    width: 101%;
+    height: 22px;
+}
+.title{
+    width: 14%;
+    height: 90px;
+    position: relative;
+    right: -10em;
+    top: 2.5em;
+}
+.title a{
+    text-decoration: none;
+    color: rgb(12, 11, 11);
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    line-height: 1;
+    font-size: 130%;
+    font-weight: bold;
+}
+.devise{
+    width: 12%;
+    height: 90px;
+    position: relative;
+    right: -10em;
+    top: 2.5em;
+}
+.devise a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+    line-height: 1.2;
+    font-size: 75%;  
+}
+.devise ul li{
+    list-style: none;
+}
+.principal-title{
+    width: 32%;
+    height: 100px;
+    position: relative;
+    right: -25em;
+    top: -11em;
+}
+.title_1 a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 2em;
+    line-height: 1.2em;
+    font-weight: 700;
+    font-family: Marianne, latobold, Arial, Helvetica, sans-serif;
+}
+.title_2 a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 550;
+    font-family: Marianne, latobold, Arial, Helvetica, sans-serif;
+    line-height: 2;
+}
+.menu_coin{
+    width: 25%;
+    height: 100px;
+    position: relative;
+    right: -55em;
+    top: -18em;
+}
+.menu_tiret{
+    width: 100%;
+    height:20px ;
+}
+.menu_tiret a{
+    text-decoration: none;
+    color: rgb(16, 69, 145);
+    font-family: latoregular, Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+.menu_tiret ul li{
+    text-align: -webkit-match-parent;
+    list-style: none;
+    line-height: 1.2;
+    display: inline;
+    margin: 0.25em;
+    font-size: 65%;
+}
+
+#mo{
+    width: 50%;
+    height: 30px;
+    position: relative;
+    top: 0.1em;
+}
+
+.formulaire .loupe{
+    width: 14%;
+    height: 30px;
+    top: 1.1em;
+    position: relative;
+}
+.formulaire .champ{
+    width: 80%;
+    height: 30px; 
+}
+.long_menu{
+    border: 2px solid #bdbdbe;
+    width: 100%;
+    height: 75px;
+    position: relative;
+}
+
+
+.long_menu a{
+    text-decoration: none;
+    line-height: 1em;
+    color: rgb(16, 69, 145);
+    font-size: 1.2em;
+    font-family: montserratregular, Arial, Helvetica, sans-serif;
+}
+
+.long_menu nav ul li{
+    display: inline;
+    margin : 0.5em;
+
+}
+.long_menu nav ul li{
+    text-align: center; 
+    
+}
+.long_menu nav ul{
+    margin-top: 1.8em;
+    margin-left: 9em;
+    border-right:  2px;
+    
+}
+.long_menu nav li{
+    border-right: 2px solid #bdbdbe;
+   
+}
+/* Fin en-tête */
+
+/*Reset CSS  menu deroulant*/
+
+.sous {
+   
+    width: 30%;
+    height: 30px;
+    position: sticky;
+    top: 2em;
+    left: 2em;
+}
+.sous  ul li{
+    
+    width: 25%;
+    text-align: center;
+    position: relative;
+}
+.sous  ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.sous  a{
+    display: block;
+    text-decoration: none;
+    color: rgb(16, 32, 172);
+    border-bottom: 2px solid white;
+}
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: rgb(231, 231, 231);
+    position: absolute;
+    width: 30%;
+    height: 400px;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous li{
+   
+    width: 30%;
+    text-align: center;
+}
+.sous a{
+    padding: 15px;
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+}
+/*Reset CSS  menu deroulant*/
+
+/* debut corps du site*/
+.part_grey{
+    width: 100%;
+    height: 880px;
+    background-color: rgb(236, 240, 241);
+}
+.bloc_logo{
+   
+    width: 100%;
+    height: 50px;
+    background-color:rgb(236, 240, 241);
+    
+}
+.chemi a{
+    
+    text-decoration: none;
+    color: rgb(0, 98, 150);
+    font-size: 1.1em;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+.chemi span{
+
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-weight: 700;
+    color: rgb(16, 69, 145);
+}
+.chemi{
+    margin-top: 0.6em;
+}
+.monte_2{
+    margin-top: -0.1em;
+}
+.signe_b{
+  
+    margin-left: 76em;
+    display: flex;
+    margin-top: -1em;
+}
+.part_blanche{
+
+    border-top: 7px solid blue;
+    width: 65%;
+    height: 750px;
+    background-color:  white;
+    margin-top: 2em;
+    margin-left: 4em;
+}
+.tit_1{
+
+    border-bottom: 1px solid rgb(214, 214, 214);
+    width: 100%;
+    height: 50px;
+}
+.tit_1 h3{
+    font-weight: 500;
+    font-size: 1.6em;
+    font-family: open_sanssemibold, Arial, sans-serif;
+    color: rgb(16, 69, 145);
+    margin-top: 0.5em;
+    margin-left: 0.6em;
+}
+
+.cas_3{
+   
+    border-left: 1px solid rgb(66, 226, 247);
+    width: 98%;
+    height: 2OOpx;
+    border-right: -1px;
+    margin-left:1em;
+    position: relative;
+}
+.livr_3{
+
+    width: 9%;
+    height: 70px;
+    margin-top: 0.3em;
+}
+.livr_3 img{
+ 
+    width: 100%;
+    height:80px ;
+}
+.coo_3{
+   
+    width: 50%;
+    height: 40px;
+    margin-left: 5.5em;
+    margin-top: -5em;
+}
+.coo_3 h3{
+   
+    font-weight: 500;
+    font-size: 1.2em;
+    font-family: open_sanssemibold, Arial, sans-serif;
+    color: rgb(16, 69, 145);
+    margin-top: 0.5em;
+}
+.coo_3 a{
+    text-decoration: none;
+    color: rgb(16, 69, 145);
+    font-weight: bold;
+}
+.test_3{
+    
+    width: 90%;
+    height: 120px;
+    line-height: 1.6em;
+    margin-top: 4.5em;
+}
+.test_3 a{
+  
+    text-decoration: none;
+    color: #4b5d68;
+    font-size: 0.9em;
+    font-family: 'latoregular',Arial,Helvetica,sans-serif;
+    font-weight: 400;
+    margin-left: 0.7em; 
+}
+.cas{
+    
+    border-left: 1px solid rgb(70, 230, 241);
+    width: 60%;
+    height: 240px;
+    border-right: -1px;
+    margin-left:1em;
+    position: relative;
+}
+.livre_2{
+    width: 14%;
+    height: 80px;
+    margin-top: 1em;
+}
+.livre_2 img{
+    width: 100%;
+    height:80px ;
+}
+.cool_1{
+    width: 60%;
+    height: 50px;
+    margin-left: 5.5em;
+    margin-top: -6.2em;
+}
+.cool_1 h3{
+    font-weight: 500;
+    font-size: 1.2em;
+    font-family: open_sanssemibold, Arial, sans-serif;
+    color: rgb(16, 69, 145);
+    margin-top: 1em;
+}
+.cool_1 a{
+    text-decoration: none;
+    color: rgb(16, 69, 145);
+    font-weight: bold;
+}
+.color_blue_1{
+    width: 160%;
+    height: 147px;
+    margin-top: 2.9em;
+    background: rgb(224, 238, 252);
+    display: flex;
+}
+.cote_gauche_1{
+    width: 45%;
+    height: 90px;
+    margin-left: 3em;
+    
+}
+.cote_droit_1{
+    width: 30%;
+    height: 90px;
+    margin-left: 2em;
+}
+.cote_gauche_1 ul a{
+    text-decoration: none;
+    color: rgb(75, 93, 104);
+    font-size: 0.6em;
+    font-family: latobold, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.cote_droit_1 ul a{
+    text-decoration: none;
+    color: rgb(75, 93, 104);
+    font-size: 0.6em;
+    font-family: latobold, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.cas_4{
+    
+    border-left: 1px solid rgb(66, 226, 247);
+    width: 98%;
+    height: 84px;
+    border-right: -1px;
+    margin-left:1em;
+    margin-top: 1.5em;
+    position: relative;
+}
+.livr_4{
+    
+    width: 9%;
+    height: 70px;
+    margin-top: 1em;
+}
+.livr_4 img{
+   
+    width: 100%;
+    height:80px ;
+    margin-top: -0.3em;
+}
+.coo_4{
+  
+    width: 50%;
+    height: 60px;
+    margin-left: 5.5em;
+    margin-top: -6em;
+}
+.coo_4 h3{
+   
+    font-weight: 500;
+    font-size: 1.2em;
+    font-family: open_sanssemibold, Arial, sans-serif;
+    color: rgb(16, 69, 145);
+    margin-top: 0.5em;
+}
+.coo_4 a{
+    text-decoration: none;
+    color: rgb(16, 69, 145);
+    font-weight: bold;
+}
+.last_partie{
+   
+    width: 98%;
+    height: 30px;
+    margin-left: 0.6em;
+    border-bottom: 1px solid black;
+}
+.haut_page{
+    width: 18%;
+    height: 20px;
+    margin: 46em;
+    margin-top: 2em;
+}
+.haut_page a{
+    color: rgb(37, 102, 173);
+    font-family: open_sansregular, Arial, sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+/* debut*/
+.gauche_cote_1{
+   
+    width: 26%;
+    height: 120px;
+    margin-left: 61em;
+    margin-top: -47.5em;
+    border-top: 7px solid blue;
+    background-color: white;
+}
+.enter_1{
+    border-bottom: 1px solid rgb(214, 214, 214);
+    width: 100%;
+    height: 50px;
+}
+.enter_1 h3{
+    font-weight: 450;
+    font-size: 1.6em;
+    font-family: open_sanssemibold, Arial, sans-serif;
+    color: rgb(16, 69, 145);
+    margin-top: 0.4em;
+    margin-left: 1em;
+}
+.gauche_cote_1 p{
+    color: rgb(84, 141, 177);
+    font-size: 0.9em;
+    font-style: italic;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    margin-top: 0.5em;
+}
+.gauche_cote_2{
+    border: 1px solid white;
+    width: 26%;
+    height: 200px;
+    margin-left: 61em;
+    margin-top: 1.5em;
+    background-color:rgb(248, 245, 245) !important;
+}
+.gauche_cote_2 span{
+        color: rgb(16, 69, 145);
+        font-size: 1.7em;
+        font-weight: 400;
+        font-family: open_sansextrabold, Arial, sans-serif;
+        line-height: 2em;
+        font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+.gauche_cote_2 a{
+    text-decoration: none;
+    color: rgb(84, 141, 177);
+    font-size: 1em;
+}
+
+footer{
+    width: 100%;
+    height: 250px;
+    background-color: #323136;
+}
+.title_1_footer{
+    width: 25%;
+    height:216px ;
+    bottom: -8em;
+    margin-left: 7em;
+}
+.ent_tete_1{
+    width: 100%;
+    height:60px ;
+    margin-top: 1em;
+}
+.ent_tete_1 span{
+    font-weight: bold;
+    border-bottom: 1px solid  #fff; ;
+    font-size: 1.3em;
+    font-family: 'open_sanssemibold',Arial,sans-serif;
+    color:#fff
+}
+.bloc_be_1{
+    width: 50%;
+    height:150px ;
+    position:relative;
+    top: -1em;
+}
+.bloc_be_1 li{
+    list-style: none;
+    font-size: 1em;
+    line-height: 1.5em;;
+}
+.bloc_be_1 a{
+    text-decoration: none;
+    color: #fff;
+}
+.bloc_be_2{
+    width: 50%;
+    height:150px ;
+    position:relative;
+    top: -10.5em;
+    margin-left: 10em;
+}
+.bloc_be_2 li{
+    list-style: none;
+    font-size: 1em;
+    line-height: 1.5em;;
+}
+.bloc_be_2 a{
+    text-decoration: none;
+    color: #fff;
+}
+.title_2_footer{
+    width: 25%;
+    height:216px ;
+    margin-top: -13.8em;
+    margin-left: 30em;
+}
+.ent_tete_2{
+    width: 100%;
+    height:60px ;
+    margin-top: 1em;
+}
+.ent_tete_2 span{
+    font-weight: bold;
+    border-bottom: 1px solid  #fff; ;
+    font-size: 1.3em;
+    font-family: 'open_sanssemibold',Arial,sans-serif;
+    color:#fff
+}
+.bloc_bes_1{
+    width: 60%;
+    height:150px ;
+    position:relative;
+    top: -0.8em;
+}
+.bloc_bes_1 li{
+    list-style: none;
+    font-size: 1em;
+    line-height: 1.8em;
+}
+.bloc_bes_1 a{
+    text-decoration: none;
+    color: #fff;
+}
+.bloc_bes_2{/* les signes A+ A- à terminer*/
+    width: 50%;
+    height:150px ;
+    position:relative;
+    top: -10.5em;
+    margin-left: 10.3em;
+}
+.images{
+    width: 27%;
+    height: 27px;
+    margin-left: 3em;
+    margin-top: -1em;  
+}
+.image_1{
+    width: 27%;
+    height: 27px;
+    margin-left: 6.2em;
+    margin-top: -1.2em;  
+}
+.image_2{
+    width: 27%;
+    height: 27px;
+    margin-left: 2.3em;
+    margin-top: 0.3em;  
+}
+
+.title_3_footer{
+    width: 25%;
+    height:216px ;
+    margin-top: -13.6em;
+    margin-left: 53em;
+} 
+.ent_tete_3{
+    width: 100%;
+    height:60px ;
+    margin-top: 1em;
+}  
+.ent_tete_3 span{
+    font-weight: bold;
+    border-bottom: 1px solid  #fff; ;
+    font-size: 1.3em;
+    font-family: 'open_sanssemibold',Arial,sans-serif;
+    color:#fff
+}
+.bloc_besi_1{
+    width: 60%;
+    height:150px ;
+    position:relative;
+    top: -0.8em;
+}
+.bloc_besi_1 li{
+    list-style: none;
+    font-size: 1em;
+    line-height: 1.8em;
+}
+.bloc_besi_1 a{
+    text-decoration: none;
+    color: #fff;
+}
+.bloc_besi_2{
+    width: 52%;
+    height:150px ;
+    position:relative;
+    top: -10.5em;
+    margin-left: 10em;
+}
+.bloc_besi_2 li{
+    list-style: none;
+    font-size: 1em;
+    line-height: 1.8em;;
+}
+.bloc_besi_2 a{
+    text-decoration: none;
+    color: #fff;
+}
+

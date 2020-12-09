@@ -1,3 +1,5 @@
+/* debut du menu*/
+
 *{
     margin: 0;
     padding: 0;
@@ -150,26 +152,27 @@
     border-right: 2px solid #bdbdbe;
    
 }
+/* fin du menu*/
 
+
+/* debut coprs du site */
 .grande-section{
-    border: 2px solid black;
     width: 100%;
-    height: 1900px;
+    height: 2370px;
     background-color: rgb(236, 240, 241);
 }
 .interior_section{
-    border: 2px solid black;
     width: 90%;
-    height: 1800px;
+    height: 2335px;
     background-color: rgb(236, 240, 241);
     margin-left: 4em;
     margin-top: 2em;
 }
 .symbole{
-    border: 2px solid black;
     width: 100%;
     height: 50px;
     background-color:rgb(236, 240, 241);
+
    
 }
 .symbole img{
@@ -187,17 +190,18 @@
     top: -0.7em ;
     position: relative;
 }
+/**
 .slide{
     border:2px solid orange;
     width: 100%;
     height: 300px;
     background-color: orangered;
     
-}
+}/**/
 #container{
-    border-top:6px solid rgb(189, 15, 9);
+    border-top:7px solid rgb(189, 15, 9);
     width: 65%;
-    height: 800px;
+    height: 1040px;
     background-color:  white;
     margin-top: 2em;
 }
@@ -225,7 +229,6 @@
 }
 .act_1 span{
     color: rgb(214, 214, 214);
-
 }
 .act_1 a{
     text-decoration: none;
@@ -241,69 +244,502 @@
     color: rgb(16, 69, 145);
 }
 
+.cont_bloc_1{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    margin-top: 1.5em;
+}
+.cont_img{
+    width: 30%;
+    height: 170px;
+}
+.cont_img img{
+    width: 90%;
+    height: 150px;
+}
+.text_1{
+    width: 70%;
+    height: 170px;
+}
+.text_1 span{
+    color: rgb(179, 185, 189);
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+
+}
+.text_1 a{
+    text-decoration: none;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 0.8em;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(52, 73, 94);
+}
+.text_1 p{
+    color: rgb(75, 93, 104);
+    font-size: 1em;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+.cont_bloc_2{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    margin-top: 1.5em;
+}
+.cont_img_1{
+    width: 30%;
+    height: 170px;
+}
+.text_2{
+    width: 70%;
+    height: 170px;
+}
+.cont_img_1 img{
+    width: 90%;
+    height: 130px;
+    position: center;
+}
+.text_2 span{
+    color: rgb(179, 185, 189);
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+
+}
+.text_2 a{
+    text-decoration: none;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 0.8em;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(52, 73, 94);
+}
+.text_2 p{
+    color: rgb(75, 93, 104);
+    font-size: 1em;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+.cont_bloc_3{
+    width: 100%;
+    height: 170px;
+    display: flex;
+}
+.cont_img_2{
+    width: 30%;
+    height: 170px;
+}
+.text_3{
+    width: 70%;
+    height: 170px;
+}
+.cont_img_2 img{
+    width: 100%;
+    height: 167px;
+    position: center;
+}
+.text_3 span{
+    color: rgb(179, 185, 189);
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+
+}
+.text_3 a{
+    text-decoration: none;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 0.8em;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(52, 73, 94);
+}
+.text_3 p{
+    color: rgb(75, 93, 104);
+    font-size: 1em;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+.cont_bloc_4{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    margin-top: 1.5em;
+}
+.cont_img_3{
+    width: 30%;
+    height: 170px;
+}
+.text_4{
+    width: 70%;
+    height: 170px;
+}
+
+.cont_img_3 img{
+    width: 100%;
+    height: 170px;
+
+}
+.text_4 span{
+    color: rgb(179, 185, 189);
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+
+}
+.text_4 p{
+    color: rgb(75, 93, 104);
+    font-size: 1em;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+.text_4 a{
+    text-decoration: none;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 0.8em;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(52, 73, 94);
+}
+.cont_bloc_5{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    margin-top: 1.5em;
+}
+.cont_img_4{
+    width: 30%;
+    height: 170px;
+}
+.cont_img_4 img{
+    width: 100%;
+    height: 170px;
+
+}
+.text_5{
+    width: 70%;
+    height: 170px;
+}
+.text_5 span{
+    color: rgb(179, 185, 189);
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+
+}
+.text_5 p{
+    color: rgb(75, 93, 104);
+    font-size: 1em;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+.text_5 a{
+    text-decoration: none;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 0.8em;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(52, 73, 94);
+}
+#container_right{
+    width: 30%;
+    height: 1020px;
+    margin-left: 53em;
+    margin-top: -66em;
+}
+.niv_1{
+    border: 1px solid white;
+    width: 100%;
+    height: 155px;
+    background-color:rgb(248, 245, 245) !important;
+}
+.niv_1 span{
+    color: rgb(16, 69, 145);
+    font-size: 1.8em;
+    font-weight: 600;
+    font-family: open_sansextrabold, Arial, sans-serif;
+    line-height: 2em;
+}
+.contact{
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+    font-family: open_sansbold, Arial, sans-serif;
+}
+.urgent{
+    font-weight: 400;
+    font-family: open_sansbold, Arial, sans-serif;
+    color:rgb(102, 102, 102);
+    text-decoration: none;
+}
+.niv_1 p{
+    font-size: 1em;
+    color: rgb(16, 69, 145);
+    font-weight: 400;
+    font-family: open_sansregular, Arial, sans-serif;
+
+}
+.niv_2{
+    border: 1px solid white;
+    width: 100%;
+    height: 195px;
+    background-color:rgb(248, 245, 245) !important;
+    margin-top: 1.5em;
+}
+.niv_2 span{
+    color: rgb(16, 69, 145);
+    font-size: 1.7em;
+    font-weight: 400;
+    font-family: open_sansextrabold, Arial, sans-serif;
+    line-height: 2em;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+.niv_2 a{
+    text-decoration: none;
+    color: rgb(37, 102, 173);
+    font-size: 1em;
+}
+.niv_3{
+    width: 100%;
+    height: 610px;
+    margin-top: 1.5em;
+    background-color: white;
+}
+.bloc_facebook{
+    border-top: 7px solid rgb(11, 11, 202);
+    border-bottom: 1px solid  rgb(214, 214, 214);
+    width: 100%;
+    height: 50px;
+}
+.bloc_facebook h3{
+    font-weight: 300;
+    font-size: 1.6em;
+    font-family: open_sanssemibold, Arial, sans-serif;
+    color: rgb(16, 69, 145);
+    margin-top: 0.4em;
+}
+.bottom{
+    width: 30%;
+    height: 200px;
+    margin-top:3.5em;
+    background-color:white;
+}
+.bottom_1{
+    border-top: 7px solid blue;
+    border-bottom:1px solid rgb(214, 214, 214);
+    width: 100%;
+    height: 50px;
+}
+.bottom_1 h3{
+    font-weight: 400;
+    font-size: 1.7em;
+    font-family: open_sanssemibold, Arial, sans-serif;
+    color: rgb(16, 69, 145);
+    margin-top: 0.3em;   
+}
+.bottom a{
+    text-decoration: none;
+    font-family: open_sansregular, Arial, sans-serif;
+    color: rgb(37, 102, 173);
+    font-size: 1em;
+}
+.bottom-left{
+    width: 30%;
+    height: 300px;
+    margin-top:3.5em;
+    background-color:white;
+    margin-left: 3.5em;
+}
+.global{
+    display: flex;
+}
+.bottom_2{
+    border-top: 7px solid blue;
+    border-bottom:1px solid rgb(214, 214, 214);
+    width: 100%;
+    height: 70px;
+}
+.bottom_2 h3{
+    font-weight: 300;
+    font-size: 1.6em;
+    font-family: open_sanssemibold, Arial, sans-serif;
+    color: rgb(16, 69, 145);
+    margin-top: 0.4em;
+}
+.image-center{
+    width: 90%;
+    height: 200px;
+    margin-top: 0.7em;
+    margin-left: 1em;
+}
+.image-center img{
+    width: 100%;
+    height: 200px;
+}
+.diploma{
+    width: 30%;
+    height: 600px;
+    margin-top: -5em;
+    border-top: 7px solid rgb(206, 16, 16);
+    background-color: white;
+}
+.tete{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid rgb(214, 214, 214);
+}
+.tete h3{
+    font-weight: 300;
+    font-size: 1.6em;
+    font-family: open_sanssemibold, Arial, sans-serif;
+    color: rgb(16, 69, 145);
+    margin-top: 0.4em;
+}
+.diploma p{
+    color: rgb(75, 93, 104);
+    font-size: 0.9em;
+    font-style: italic;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    line-height: 2em;
+}
+.diploma a{
+    text-decoration : none;
+    font-family: open_sansregular, Arial, sans-serif;
+    color: rgb(37, 102, 173);
+    font-size: 0.9em;
+}
+.dip{
+    margin-left: 12em;
+    line-height:4em;
+}
+.security{
+    width: 30%;
+    height: 410px;
+    margin-left: 53em;
+    margin-top: -53em;
+    border-top: 7px solid blue;
+    background-color: white;
+}
+.security_1{
+    border-bottom: 1px solid rgb(214, 214, 214);;
+    width: 100%;
+    height: 40px;
+}
+.security_1 h3{
+    font-weight: 300;
+    font-size: 1.6em;
+    font-family: open_sanssemibold, Arial, sans-serif;
+    color: rgb(16, 69, 145);
+    margin-top: 0.4em;
+} 
+.security_img{
+    width: 93%;
+    height: 250px;
+    margin-top:0.7em;
+    margin-left: 0.7em;
+}
+.security_img img{
+   width: 100%;
+   height: 250px;
+    
+}
+.security p{
+    font-family: Arial,Verdana,Helvetica,sans-serif;
+    color: #000;
+    line-height: 1.2;
+    font-size: 65%;
+    margin-top: 2em;
+}
+.security a{
+    text-decoration: none;
+    font-family: 'open_sansregular',Arial,sans-serif;
+    color: rgb(37,102,173);
+    font-size: 1.2em;
+}
+.institut{
+    border-top: 7px solid blue;
+    width: 30%;
+    height: 270px;
+    margin-left: 26.5em;
+    margin-top: -4em;
+    background-color: white;
+}
+.banderol{
+    border-bottom: 1px solid rgb(214, 214, 214);
+    width: 100%;
+    height: 55px;
+}
+.banderol h3{
+    font-weight: 300;
+    font-size: 1.6em;
+    font-family: open_sanssemibold, Arial, sans-serif;
+    color: rgb(16, 69, 145);
+    margin-top: 0.4em;
+}
+.institut img{
+    width: 100%;
+    height:210px;
+}
+.institut_img{
+    width: 50%;
+    height: 160px;
+    margin-top:1.5em;
+    margin-left: 5.5em;
+}
+.institut_img img{
+    width: 100%;
+    height:160px ;
+}
 
 
 
 
 
+/*Reset CSS  menu deroulant*/
+
+.sous {
+   
+    width: 30%;
+    height: 30px;
+    position: sticky;
+    top: 2em;
+    left: 2em;
+}
+.sous  ul li{
+    
+    width: 25%;
+    text-align: center;
+    position: relative;
+}
+.sous  ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.sous  a{
+    display: block;
+    text-decoration: none;
+    color: rgb(16, 32, 172);
+    border-bottom: 2px solid white;
+}
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: rgb(231, 231, 231);
+    position: absolute;
+    width: 30%;
+    height: 400px;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous li{
+   
+    width: 30%;
+    text-align: center;
+}
+.sous a{
+    padding: 15px;
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+}
+/*Reset CSS  menu deroulant*/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*pied de page css*/
 
 footer{
     width: 100%;
-    height: 216px;
+    height: 230px;
     background-color: #323136;;
 }
 .title_1_footer{
@@ -464,66 +900,143 @@ footer{
     color: #fff;
 }
 
-/*Reset CSS  menu deroulant*/
+/* fin accueil */
 
-.sous {
-   
-    width: 30%;
-    height: 30px;
-    position: sticky;
-    top: 2em;
-    left: 2em;
+/* debut option accueil */
+
+.grand-block{
+    width: 100%;
+    height: 2370px;
+    background-color: rgb(236, 240, 241);
 }
-.sous  ul li{
-    
-    width: 25%;
-    text-align: center;
+.contain{
+    border-top: 7px solid blue;
+    width: 65%;
+    height: 1040px;
+    background-color:  white;
+    margin-top: 2em;
+    margin-left: 4em;
+}
+.symbole_a{
+    border: 1px solid black;
+    width: 100%;
+    height: 50px;
+    background-color:rgb(236, 240, 241);
+}
+.chemin a{
+    text-decoration: none;
+    color: rgb(0, 98, 150);
+    font-size: 1.1em;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+.chemin span{
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-weight: 700;
+    color: rgb(16, 69, 145);
+}
+.chemin p{
+    margin-top: 0.7em;
+}
+.signe_a{
+    margin-left: 76em;
+    display: flex;
+    margin-top: -1em;
+}
+.monte_1{
+    margin-top: -0.2em;
+}
+.tit{
+    border-bottom: 1px solid rgb(214, 214, 214);
+    width: 100%;
+    height: 50px;
+}
+.tit h3{
+    font-weight: 300;
+    font-size: 1.6em;
+    font-family: open_sanssemibold, Arial, sans-serif;
+    color: rgb(16, 69, 145);
+    margin-top: 0.5em;
+}
+.case{
+    border-left: 2px solid green;
+    width: 95%;
+    height: 700px;
+    border-right: -3px;
     position: relative;
 }
-.sous  ul::after{
-    content: "";
-    display: table;
-    clear: both;
+.livre{
+    border: 1px solid rgb(22, 24, 22);
+    width: 11%;
+    height: 100px;
 }
-.sous  a{
-    display: block;
-    text-decoration: none;
-    color: rgb(16, 32, 172);
-    border-bottom: 2px solid white;
+
+
+
+
+
+#slider {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 300px;
+    width: 100%;
+    margin-left: 0.1em;
+    margin-right: 80px;
 }
-.sous{
-    display: none;
-    box-shadow: 0px 1px 2px #CCC;
-    background-color: rgb(231, 231, 231);
+
+#slides {
     position: absolute;
-    width: 30%;
-    height: 400px;
+    left: 0;
+    display: flex;
+    max-height: 100%;
 }
-nav > ul li:hover .sous{
-    display: block;
+
+#slides figure {
+    display: inline-block;
+    width: 100vw;
+    max-height: 100%;
+    margin: 0;
 }
-.sous li{
-   
-    width: 30%;
-    text-align: center;
+
+#slides figure img {
+    max-width: 100%;
+    /*Centrer l'image verticalement si celle-ci ne peut être affichée totalement*/
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
-.sous a{
-    padding: 15px;
-    border-bottom: none;
+
+
+/*animation*/
+@keyframes slide {
+    0%, 20%, 100% {
+        left: 0; /*1ère image*/
+    }
+    35%, 50% {
+        left: -100vw; /*2ème image*/
+    }
+    70%, 95% {
+        left: -200vw; /*3ème image*/
+    }
 }
-.sous a:hover{
-    border-bottom: none;
-    background-color: RGBa(200,200,200,0.1);
+/*Appeler l'animation sur slydes*/
+#slides {
+    /*... Code précédent ...*/
+    /*CSS3 keyframes animation*/
+   /* Pour le version raccourcie de
+    #slides {
+        animation: slide 2s infinite ease-in-out forwards;
+    }*/
+
+    animation-name: slide;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
 }
-/*Reset CSS  menu deroulant*/
-
-
-
-
-
-
-
-
+#slides:hover {
+    animation-play-state: paused; /* Mise en pause de l'animation */
+}
 
 
 
